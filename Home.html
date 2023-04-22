@@ -4,31 +4,53 @@
     <head>
         <meta charset="utf-8" />
         <title>Home</title>
+        <link rel="stylesheet" href="site.css"/>
     </head>
     <body>
         <header>
-            Home
+            <h1>Home</h1>
+            <nav>
+                <a href="Login Page.html">Log out</a>
+                <br />
+                <button><img src="Images/Search Icon.png" class="search-bar-btn"/></button>
+                <input type="text" value="Search here..." />
+                <button><img src="Images/Funnel.png" class="search-bar-btn"/></button>
+            </nav>
         </header>
-        <nav>
-            Search bar goes here
-        </nav>
-        <table>
-            <thead>
-                <tr>
-                    <th>MEWS Score</th>
-                    <th>Patient Name</th>
-                    <th>Room Number</th>
-                    <th>Unit Number</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>8</td>
-                    <td>Bob Jones</td>
-                    <td>101</td>
-                    <td>1</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="text-center">
+            <table>
+                <thead>
+                    <tr>
+                        <th>MEWS Score</th>
+                        <th>Patient Name</th>
+                        <th>Room Number</th>
+                        <th>Unit Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8</td>
+                        <td>Bob Jones</td>
+                        <td>101</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Jane Doe</td>
+                        <td>202</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Dave Jones</td>
+                        <td>103</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            &copy; 2023 MEWS Alert System
+        </footer>
     </body>
 </html>

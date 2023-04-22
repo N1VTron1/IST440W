@@ -1,4 +1,21 @@
-﻿body
-{
+﻿
+/*body {
+    background: #00ffcc;
+}*/
+
+img.search-bar-btn {
+    width: 150px;
+}
+
+button.search-bar-btn {
+    border: none;
+    background: white;
+}
+
+div {
     background: blue;
+}
+
+.text-center {
+    text-align: center;
 }
