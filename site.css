@@ -32,8 +32,9 @@ footer {
 
 table {
     background: #ccfff5;
+    border-bottom: dashed;
 }
 
-.cancel-btn {
-    background: #ff5050;
+button.cancel-btn {
+    border: none;
 }
