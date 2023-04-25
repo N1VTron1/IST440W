@@ -8,8 +8,8 @@ header {
     background: #00ffcc;
 }
 
-nav {
-    background: white;
+header > img {
+    width: 10px;
 }
 
 img.search-bar-btn {
@@ -32,9 +32,9 @@ footer {
 
 table {
     background: #ccfff5;
-    border-bottom: dashed;
 }
 
 button.cancel-btn {
     border: none;
 }
+

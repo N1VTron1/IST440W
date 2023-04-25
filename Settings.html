@@ -4,8 +4,28 @@
     <head>
         <meta charset="utf-8" />
         <title>Settings</title>
+        <link rel="stylesheet" href="settings.css" />
+        <script type="text/javascript" src="settings.js"></script>
     </head>
     <body>
+        <!--Slider code from https://www.w3schools.com/howto/howto_js_rangeslider.asp-->
+        <div class="slidecontainer">
+            <input type="range" min="6" max="10" value="7" class="slider" id="myRange">
+            <p>Value: <span></span></p> <!--FIXME: Value not displaying-->
+        </div>
 
+        <!-- Trigger/Open The Modal -->
+        <button onclick="displayModal()">Open Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+            </div>
+
+        </div>
     </body>
 </html>

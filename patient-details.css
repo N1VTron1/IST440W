@@ -1,0 +1,13 @@
+﻿#patient-details-overview {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mews-score-circle {
+    background-color: yellow;
+}
+
+.mews-score-text {
+    color: yellow;
+    text-transform: capitalize;
+}
