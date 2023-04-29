@@ -1,13 +1,26 @@
-﻿#patient-details-overview {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.mews-score-circle {
+﻿.mews-score-circle {
     background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .mews-score-text {
     color: yellow;
-    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
 }

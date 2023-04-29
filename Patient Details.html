@@ -8,19 +8,31 @@
         <link rel="stylesheet" href="site.css" />
         <link rel="stylesheet" href="patient-details.css" />
     </head>
-        <body>
-            <div id="patient-details-overview">
+    <body>
+        <header>
+            <img class="left-nav-btn" src="Images\Alarm Bell Icon.png" />
+            <h1>PATIENT DETAILS</h1>
+            <img class="right-nav-btn" src="\Images\white-gear-2281804007.png"/>
+            <nav>
+                <a href="Login Page.html">Log out</a>
+                <br />
+                <button class="search-bar-btn"><img src="Images/Search Icon.png" class="search-bar-btn" /></button>
+                <input type="text" value="Search here..." />
+                <button class="search-bar-btn"><img src="Images/Funnel.png" class="search-bar-btn" /></button>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="column">
                 <h2>Jane Doe</h2>
                 <p>
                     Room 208 <br />
-                    Unit 2 <br />
-                    <span class="mews-score-circle">6</span> <br />
-                    <span class="mews-score-text">Warning</span> <br />
+                    Unit 2 <br /> <br /> <br /> <br />
+                    <div class="mews-score-circle">6</div> <br /> <br /> <br /> <br />
+                    <span class="mews-score-text">WARNING</span> <br />
                     Diagnosis: COVID-19
                 </p>
             </div>
-
-            <div>
+            <div class="column">
                 <table>
                     <thead>
                         <tr>
@@ -32,38 +44,41 @@
                     <tbody>
                         <tr>
                             <td>Systolic BP</td>
-                            <td>0</td>
-                            <td>160/40</td>
+                            <td class="normal-vitals">0</td>
+                            <td class="normal-vitals">160/40</td>
                         </tr>
                         <tr>
                             <td>Heart Rate</td>
-                            <td>2</td>
-                            <td>20 bpm</td>
+                            <td class="warning-vitals">2</td>
+                            <td class="warning-vitals">20 bpm</td>
                         </tr>
                         <tr>
                             <td>Respiratory Rate</td>
-                            <td>2</td>
-                            <td>20 bpm</td>
+                            <td class="warning-vitals">2</td>
+                            <td class="warning-vitals">20 bpm</td>
                         </tr>
                         <tr>
                             <td>Temperature</td>
-                            <td>2</td>
-                            <td>101.1&deg;F</td>
+                            <td class="warning-vitals">2</td>
+                            <td class="warning-vitals">101.1&deg;F</td>
                         </tr>
                         <!--NOTE: This data for this field will come from AVPU-->
                         <tr>
                             <td>Conciousness</td>
-                            <td>0</td>
-                            <td>Voice</td>
+                            <td class="normal-vitals">0</td>
+                            <td class="normal-vitals">Voice</td>
                         </tr>
                         <tr>
                             <td>Urine</td>
-                            <td>0</td>
-                            <td>20 mL</td>
+                            <td class="normal-vitals">0</td>
+                            <td class="normal-vitals">20 mL</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-        
-        </body>
+        </div>
+        <footer>
+            &copy; 2023 MEWS Alert System
+        </footer>
+    </body>
 </html>

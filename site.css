@@ -9,7 +9,7 @@ header {
 }
 
 header > img {
-    width: 10px;
+    width: 50px;
 }
 
 img.search-bar-btn {
@@ -36,5 +36,25 @@ table {
 
 button.cancel-btn {
     border: none;
+}
+
+.left-nav-btn {
+    float: left;
+}
+
+.right-nav-btn {
+    float: right;
+}
+
+.normal-vitals {
+    color: green;
+}
+
+.warning-vitals {
+    color: yellow;
+}
+
+.critical-vitals {
+    color: red;
 }
 
