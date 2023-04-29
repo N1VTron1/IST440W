@@ -4,8 +4,12 @@ body {
     font-family: 'Franklin Gothic';
 }
 
+#login-page {
+    background-color: #00ffcc;
+}
+
 header {
-    background: #00ffcc;
+    background-color: #00ffcc;
 }
 
 header > img {
@@ -18,7 +22,10 @@ img.search-bar-btn {
 
 button.search-bar-btn {
     border: none;
-    background: white;
+}
+
+nav {
+    color: white;
 }
 
 .text-center {
@@ -27,11 +34,11 @@ button.search-bar-btn {
 }
 
 footer {
-    background: #00ffcc;
+    background-color: #00ffcc;
 }
 
 table {
-    background: #ccfff5;
+    background-color: #ccfff5;
 }
 
 button.cancel-btn {
@@ -56,5 +63,9 @@ button.cancel-btn {
 
 .critical-vitals {
     color: red;
+}
+
+.green-button {
+    background-color: green;
 }
 
