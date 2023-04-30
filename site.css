@@ -2,30 +2,28 @@
 body {
     text-align: center;
     font-family: 'Franklin Gothic';
+    background-color: #00ffcc;
 }
 
-#login-page {
-    background-color: #00ffcc;
+div {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
 }
 
 header {
-    background-color: #00ffcc;
+    color: white;
 }
 
 header > img {
-    width: 50px;
+    width: 60px;
 }
 
-img.search-bar-btn {
+.search-bar-btn {
     width: 30px;
-}
-
-button.search-bar-btn {
     border: none;
-}
-
-nav {
-    color: white;
+    background: none;
 }
 
 .text-center {
@@ -33,12 +31,13 @@ nav {
     margin-right: auto;
 }
 
-footer {
-    background-color: #00ffcc;
-}
-
 table {
     background-color: #ccfff5;
+}
+
+tr, th, td {
+    border-bottom: solid;
+    padding: 20px;
 }
 
 button.cancel-btn {
@@ -47,9 +46,13 @@ button.cancel-btn {
 
 .left-nav-btn {
     float: left;
+    border: none;
+    background: none;
 }
 
 .right-nav-btn {
+    border: none;
+    background: none;
     float: right;
 }
 
@@ -66,6 +69,16 @@ button.cancel-btn {
 }
 
 .green-button {
-    background-color: green;
+    background-color: #33cc33;
+    border: none;
+    border-radius: 35%;
+    padding: 10px;
+    color: white;
 }
+
+.default-background {
+    background-color: #00ffcc;
+}
+
+
 
