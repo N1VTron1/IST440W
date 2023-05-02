@@ -17,13 +17,20 @@ header {
 }
 
 header > img {
-    width: 60px;
+    width: 125px;
+}
+
+header > button > img {
+    width: 125px;
 }
 
 .search-bar-btn {
-    width: 30px;
     border: none;
     background: none;
+}
+
+img.search-bar-btn {
+    width: 30px;
 }
 
 .text-center {
@@ -40,14 +47,16 @@ tr, th, td {
     padding: 20px;
 }
 
-button.cancel-btn {
+.cancel-btn {
     border: none;
+    background-color: lightcoral;
+    color: white;
 }
 
 .left-nav-btn {
-    float: left;
     border: none;
     background: none;
+    float: left;
 }
 
 .right-nav-btn {
@@ -71,14 +80,20 @@ button.cancel-btn {
 .green-button {
     background-color: #33cc33;
     border: none;
-    border-radius: 35%;
     padding: 10px;
     color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.default-background {
-    background-color: #00ffcc;
+.green-button:hover {
+    background-color: lawngreen;
 }
 
-
-
+.textbox {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

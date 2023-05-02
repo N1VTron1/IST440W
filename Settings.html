@@ -6,39 +6,35 @@
         <title>Settings</title>
         <link rel="stylesheet" href="site.css"/>
         <link rel="stylesheet" href="settings.css" />
-        <script type="text/javascript" src="settings.js"></script>
     </head>
     <body>
         <header>
-            <img class="left-nav-btn" src="Images\Alarm Bell Icon.png" />
             <h1>SETTINGS</h1>
-            <img class="right-nav-btn" src="\Images\white-gear-2281804007.png" />
+            <img class="left-nav-btn" src="Images\Alarm Bell Icon.png" />
+            <img class="right-nav-btn" src="Images\white-gear-2281804007.png" />
             <nav>
                 <a href="Login Page.html">Log out</a>
                 <br />
                 <button class="search-bar-btn"><img src="Images/Search Icon.png" class="search-bar-btn" /></button>
-                <input type="text" value="Search here..." />
+                <input type="text" value="Search here..." class="textbox"/>
                 <button class="search-bar-btn"><img src="Images/Funnel.png" class="search-bar-btn" /></button>
             </nav>
         </header>
-        <!--Slider code from https://www.w3schools.com/howto/howto_js_rangeslider.asp-->
-        <div class="slidecontainer">
-            <input type="range" min="6" max="10" value="7" class="slider" id="myRange">
-            <p>Value: <span></span></p> <!--FIXME: Value not displaying-->
+        <div>
+            <!--Slider code from: https://www.w3schools.com/howto/howto_js_rangeslider.asp-->
+            <h2>MEWS Score Alert Settings</h2>
+            <input class="slider" type="range" min="6" max="10" value="7">
+            <table>
+                <tr>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                </tr>
+            </table>
+            <button type="submit" class="green-button">Save</button>
         </div>
-        <!--FIXME: Modal not displaying-->
-        <!-- Trigger/Open The Modal -->
-        <button onclick="displayModal()">Open Modal</button>
-
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Some text in the Modal..</p>
-            </div>
-
-        </div>
+        <footer>&copy; IST 440W Team 1 2023</footer>
     </body>
 </html>
