@@ -16,7 +16,7 @@
                 <a href="Login Page.html">Log out</a>
                 <br />
                 <button class="search-bar-btn"><img src="Images/Search Icon.png" class="search-bar-btn" /></button>
-                <input type="text" value="Search here..." class="textbox"/>
+                <input type="text" value="Search here..." class="textbox" />
                 <button class="search-bar-btn"><img src="Images/Funnel.png" class="search-bar-btn" /></button>
             </nav>
         </header>
@@ -33,7 +33,18 @@
                     <th>10</th>
                 </tr>
             </table>
-            <button type="submit" class="green-button">Save</button>
+            <div class="box">
+                <a href="#popup-box" id="save-settings-btn">Save</a>
+            </div>
+            <div id="popup-box" class="modal">
+                <div class="content">
+                    <h1 style="color: red;">WARNING</h1>
+                    <p>
+                        <b>Only authorized personnel may adjust this setting.</b>
+                    </p>
+                    <a href="#" class="box-close">x</a>
+                </div>
+            </div>
         </div>
         <footer>&copy; IST 440W Team 1 2023</footer>
     </body>

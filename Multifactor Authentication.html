@@ -7,13 +7,16 @@
         <script type="text/javascript" src="index.js"></script>
         <link rel="stylesheet" href="site.css"/>
     </head>
-    <body>
+    <body id="multifactor-screen">
         <button onclick="window.location.href='Face ID.html';" class="green-button">Login with Face ID</button>
         <br />
         <button onclick="window.location.href='Fingerprint ID.html';" class="green-button">Login with Fingerprint ID</button>
         <br />
-        <button onclick="callUser()" class="green-button">Login with Call</button>
+        <button onclick="callUser(); window.location.href='Home.html';" class="green-button">Login with Call</button>
         <br />
-        <button onclick="textUser()" class="green-button">Login with Text</button>
+        <button onclick="textUser(); window.location.href='Home.html';" class="green-button">Login with Text</button>
+        <br />
+        <button onclick="window.location.href='Login Page.html';" class="cancel-btn" >Cancel</button>
+        <footer>&copy; IST 440W Team 1 2023</footer>
     </body>
 </html>

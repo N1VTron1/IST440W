@@ -1,4 +1,3 @@
-// JavaScript source code
 function callUser() {
     alert("Calling...");
 }

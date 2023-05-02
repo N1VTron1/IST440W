@@ -51,6 +51,15 @@ tr, th, td {
     border: none;
     background-color: lightcoral;
     color: white;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cancel-btn:hover {
+    background-color: #ff9999;
 }
 
 .left-nav-btn {
@@ -80,10 +89,12 @@ tr, th, td {
 .green-button {
     background-color: #33cc33;
     border: none;
-    padding: 10px;
+    padding: 20px;
     color: white;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .green-button:hover {
@@ -96,4 +107,8 @@ tr, th, td {
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#multifactor-screen {
+    padding: 100px;
 }
