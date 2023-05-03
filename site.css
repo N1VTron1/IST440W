@@ -56,6 +56,7 @@ tr, th, td {
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 20px;
+    border-radius: 25px;
 }
 
 .cancel-btn:hover {
@@ -95,6 +96,7 @@ tr, th, td {
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 20px;
+    border-radius: 25px;
 }
 
 .green-button:hover {
@@ -111,4 +113,10 @@ tr, th, td {
 
 #multifactor-screen {
     padding: 100px;
+}
+
+.multifactor-img {
+    margin-top: 50px;
+    width: 800px;
+    height: 800px;
 }
