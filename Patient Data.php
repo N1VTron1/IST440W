@@ -138,6 +138,7 @@
         </header>
         <div>
             <?php
+            // Code from: https://www.w3schools.com/php/php_mysql_select.asp
             $servername = "127.0.0.1";
             $username = "root";
             $password = "";
