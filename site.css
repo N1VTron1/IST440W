@@ -75,11 +75,11 @@ tr, th, td {
 }
 
 .normal-vitals {
-    color: green;
+    color: #33cc33;
 }
 
 .warning-vitals {
-    color: yellow;
+    color: #ffff1a;
 }
 
 .critical-vitals {

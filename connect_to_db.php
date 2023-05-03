@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Connecting to database...</title>
+        <title>Connect to database</title>
     </head>
     <body>
         <?php
