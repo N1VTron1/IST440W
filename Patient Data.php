@@ -137,6 +137,7 @@
             </nav>
         </header>
         <div>
+            <!--Code from: https://www.w3schools.com/php/php_mysql_select.asp -->
             <?php
             $servername = "127.0.0.1";
             $username = "root";
