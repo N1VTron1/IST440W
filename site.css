@@ -1,0 +1,122 @@
+﻿
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic';
+    background-color: #00ffcc;
+}
+
+div {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+
+header {
+    color: white;
+}
+
+header > img {
+    width: 125px;
+}
+
+header > button > img {
+    width: 125px;
+}
+
+.search-bar-btn {
+    border: none;
+    background: none;
+}
+
+img.search-bar-btn {
+    width: 30px;
+}
+
+.text-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    background-color: #ccfff5;
+}
+
+tr, th, td {
+    border-bottom: solid;
+    padding: 20px;
+}
+
+.cancel-btn {
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.cancel-btn:hover {
+    background-color: #ff9999;
+}
+
+.left-nav-btn {
+    border: none;
+    background: none;
+    float: left;
+}
+
+.right-nav-btn {
+    border: none;
+    background: none;
+    float: right;
+}
+
+.normal-vitals {
+    color: #33cc33;
+}
+
+.warning-vitals {
+    color: #ffff1a;
+}
+
+.critical-vitals {
+    color: red;
+}
+
+.green-button {
+    background-color: #33cc33;
+    border: none;
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.green-button:hover {
+    background-color: lawngreen;
+}
+
+.textbox {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#multifactor-screen {
+    padding: 100px;
+}
+
+.multifactor-img {
+    margin-top: 50px;
+    width: 800px;
+    height: 800px;
+}

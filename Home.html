@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Home</title>
+        <link rel="stylesheet" href="site.css"/>
+        <link rel="stylesheet" href="patient-details.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>HOME</h1>
+            <button class="left-nav-btn" onclick="window.location.href='Home.html';"><img src="Images\Alarm Bell Icon.png" /></button>
+            <button class="right-nav-btn" onclick="window.location.href='Settings.html';"><img src="Images\white-gear-2281804007.png" /></button>
+            <nav>
+                <a href="Login Page.html">Log out</a>
+                <br />
+                <button class="search-bar-btn"><img src="Images/Search Icon.png" class="search-bar-btn" /></button>
+                <input class="textbox" type="text" value="Search here..." />
+                <button class="search-bar-btn"><img src="Images/Funnel.png" class="search-bar-btn" /></button>
+            </nav>
+        </header>
+        <div>
+            <table class="text-center">
+                <thead>
+                    <tr>
+                        <th>MEWS Score</th>
+                        <th>Patient Name</th>
+                        <th>Room Number</th>
+                        <th>Unit Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="critical-mews-score-circle">8</td>
+                        <td>Bob Jones</td>
+                        <td>101</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td class="critical-mews-score-circle">8</td>
+                        <td><a href="Patient Details.html">Jane Doe</a></td>
+                        <td>300</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td class="critical-mews-score-circle">7</td>
+                        <td>Dave Jones</td>
+                        <td>213</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>&copy; IST 440W Team 1 2023</footer>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Settings</title>
+        <link rel="stylesheet" href="site.css"/>
+        <link rel="stylesheet" href="settings.css" />
+    </head>
+    <body>
+        <header>
+            <h1>SETTINGS</h1>
+            <button class="left-nav-btn" onclick="window.location.href='Home.html';"><img src="Images\Alarm Bell Icon.png" /></button>
+            <button class="right-nav-btn" onclick="window.location.href='Settings.html';"><img src="Images\white-gear-2281804007.png" /></button>
+            <nav>
+                <a href="Login Page.html">Log out</a>
+                <br />
+                <button class="search-bar-btn"><img src="Images/Search Icon.png" class="search-bar-btn" /></button>
+                <input type="text" value="Search here..." class="textbox" />
+                <button class="search-bar-btn"><img src="Images/Funnel.png" class="search-bar-btn" /></button>
+            </nav>
+        </header>
+        <div>
+            <!--Slider code from: https://www.w3schools.com/howto/howto_js_rangeslider.asp-->
+            <h2>MEWS Score Alert Settings</h2>
+            <input class="slider" type="range" min="6" max="10" value="7">
+            <table>
+                <tr>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                </tr>
+            </table>
+            <div class="box">
+                <a href="#popup-box" id="save-settings-btn">Save</a>
+            </div>
+            <div id="popup-box" class="modal">
+                <div class="content">
+                    <h1 style="color: red;">WARNING</h1>
+                    <p>
+                        <b>Only authorized personnel may adjust this setting. Please contact your system administrator.</b>
+                    </p>
+                    <a href="#" class="box-close">x</a>
+                </div>
+            </div>
+        </div>
+        <footer>&copy; IST 440W Team 1 2023</footer>
+    </body>
+</html>

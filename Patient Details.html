@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<!--NOTE: All data will come from downtime EMR via Google FHIR; data currently hardcoded for display purposes-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Patient Details</title>
+        <link rel="stylesheet" href="site.css" />
+        <link rel="stylesheet" href="patient-details.css" />
+    </head>
+    <body>
+        <header>
+            <h1>PATIENT DETAILS</h1>
+            <button class="left-nav-btn" onclick="window.location.href='Home.html';"><img src="Images\Alarm Bell Icon.png" /></button>
+            <button class="right-nav-btn" onclick="window.location.href='Settings.html';"><img src="Images\white-gear-2281804007.png" /></button>
+            <nav>
+                <a href="Login Page.html">Log out</a>
+                <br />
+                <button class="search-bar-btn"><img src="Images/Search Icon.png" class="search-bar-btn" /></button>
+                <input type="text" value="Search here..." class="textbox" />
+                <button class="search-bar-btn"><img src="Images/Funnel.png" class="search-bar-btn" /></button>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="column">
+                <p>
+                    <h2>Jane Doe</h2>
+                    Room 208 <br />
+                    Unit 2 <br /> <br /> <br /> <br />
+                    <div class="critical-mews-score-circle">8</div> <br /> <br /> <br /> <br />
+                    <span class="critical-mews-score-text">CRITICAL</span> <br /> <br />
+                    Diagnosis: COVID-19
+                </p>
+            </div>
+            <div class="column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Vitals Description</th>
+                            <th>MEWS Score</th>
+                            <th>Vitals Statistics</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Systolic BP</td>
+                            <td><span class="normal-vitals">0</span></td>
+                            <td><span class="normal-vitals">160/40</span></td>
+                        </tr>
+                        <tr>
+                            <td>Heart Rate</td>
+                            <td><span class="critical-vitals">3</span></td>
+                            <td><span class="critical-vitals">15 bpm</span></td>
+                        </tr>
+                        <tr>
+                            <td>Respiratory Rate</td>
+                            <td><span class="critical-vitals">3</span></td>
+                            <td><span class="critical-vitals">20 bpm</span></td>
+                        </tr>
+                        <tr>
+                            <td>Temperature</td>
+                            <td><span class="warning-vitals">2</span></td>
+                            <td><span class="warning-vitals">101.1&deg;F</span></td>
+                        </tr>
+                        <!--NOTE: This data for this field will come from AVPU-->
+                        <tr>
+                            <td>Conciousness</td>
+                            <td><span class="normal-vitals">0</span></td>
+                            <td><span class="normal-vitals">Voice</span></td>
+                        </tr>
+                        <tr>
+                            <td>Urine</td>
+                            <td><span class="normal-vitals">0</span></td>
+                            <td><span class="normal-vitals">20 mL</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer>&copy; IST 440W Team 1 2023</footer>
+    </body>
+</html>
